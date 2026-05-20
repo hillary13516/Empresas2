@@ -10,7 +10,7 @@ def get_base64_image(path):
         return base64.b64encode(img_file.read()).decode()
 
 # IMAGENS
-spacex_img = get_base64_image("spacex.png")
+spacex_img = get_base64_image("Spacex.png")
 apple_img = get_base64_image("apple.png")
 netflix_img = get_base64_image("netflix.png")
 
